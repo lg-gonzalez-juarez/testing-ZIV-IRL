@@ -14,8 +14,7 @@ Bloqueo Armonicos :done, 2017-07-24, 90d
 51(NS)  :done,  2017-10-16, 2017-10-17
 50/51 (V)   :done,  2017-10-26, 2017-10-27
 51 NS EPTR_C  :done,  2017-10-06, 2017-10-31
-
-51  NI/C           :done, crit,  2017-08-20, 30d 
+51  NI/C           :done,  2017-08-20, 30d 
 
 50 (BF)               :active,   t50BF, 2017-08-06, 4d 
 50 (FD)               : active, after t50BF, 4d 
@@ -26,19 +25,20 @@ section Direccional
 67NS  :done,  2017-10-19, 2017-10-25
 67N   :done,  2017-10-10, 2017-10-11
 67NI/C :done,  2017-10-18, 2017-10-25
-67Q         :crit,  3d
-67 sec pos   :crit, 5d
-32P/Q :crit, active, 2017-11-07,2017-11-09
+
+67Q         :crit,active,  3d
+67 sec pos   :crit,active, 5d
+32P/Q : crit, active, 2017-11-07,2017-11-09
 
 section Tensión Frecuencia
 27     :done,2017-11-06,1d
 59  :done,  2017-11-06, 1d
 59N    :done,  2017-11-07, 1d
 59V/Hz  :crit, 3d
-47  : ¡active, 2017-11-06,1d
-81M  :active, crit, 2d
-81m  :active, crit, 2d
-81D :active, crit, 2d
+47  : active, 2017-11-06,1d
+81M  :done, 2d
+81m  :done, 2d
+81D :done,  2d
 
 section Varios
 RPSL1 :crit, 2017-12-12, 4d
@@ -46,9 +46,9 @@ RPSL1 :crit, 2017-12-12, 4d
 37 : active, 2017-11-15,1d
 
 49 :crit, 2017-12-12, 4d
-78 :4d
-CLP:4d
-87NL:4d
+78 :crit,4d
+CLP:crit,4d
+87NL:crit,4d
 
 60 :done, 2017-11-13,1d
 60VT :done, 2017-11-14,1d
@@ -67,6 +67,3 @@ RDEL1:4d
 PHSTCRT1:4d
 RSTM1:4d
 PTRC:4d
-
-        Create tests for renderer           :2d
-        Add to mermaid                      :1d
