@@ -1,2 +1,2 @@
 # testing-ZIV-IRL
-descripcion de funciones de protección en reles electricos
+descripción de funciones de protección en relés eléctricos
